@@ -1,0 +1,35 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class AdmissionFormUpdate1 {
+
+	public static void main(String[] args) {
+	
+		
+		
+		 JFrame frame = new JFrame();
+
+		 frame.setTitle("Admission Form");
+				        
+		 frame.setSize(400, 300);
+		 frame.setLayout(null);
+		 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		 JLabel label1 = new JLabel();		       
+		 label1.setText("STUDENT NAME:");		        
+		 label1.setBounds(30, 30, 150, 20);		       
+		 frame.add(label1);
+		 
+		 JTextField TextField1=new JTextField();
+		 TextField1.setText("   ");		        
+		 TextField1. setBounds(140, 30, 150, 20);	
+		 frame.add(TextField1); 
+		 frame.setLocationRelativeTo(null);
+		 
+		 
+		frame.setVisible(true);
+
+			}
+
+		}
